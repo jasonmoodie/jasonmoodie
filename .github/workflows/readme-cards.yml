@@ -1,0 +1,25 @@
+name: Refresh profile cards
+on:
+  schedule:
+    - cron: '17 6 * * *'
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 .github/scripts/readme_cards.py
+        env:
+          GH_TOKEN: ${{ github.token }}
+      - name: Save updated cards
+        run: |
+          git add profile/stats.svg profile/top-langs.svg
+          if ! git diff --cached --quiet; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit -m 'Refresh profile cards'
+            git push
+          fi

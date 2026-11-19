@@ -52,13 +52,20 @@ In my spare time I tinker with AI: experimenting across model providers and comp
 - **Cloud & app modernization:** Azure architecture, .NET migration and containerized apps
 - **Responsible AI adoption:** governance, security posture and compliance for public sector teams
 
+## 🤝 Microsoft & GitHub projects I contribute to
+
+| Organization | Public repository | What it does |
+| --- | --- | --- |
+| Microsoft | [Azure DevOps Quick Review (ADOQR)](https://github.com/microsoft/adoqr) | Checks Azure DevOps organizations against recommended practices |
+| Microsoft | [GHCP BYOK with Azure API Management](https://github.com/microsoft/GitHub-Copilot-BYOK-with-APIM/) | Connects GitHub Copilot to Microsoft Foundry models through a bring-your-own-key gateway |
+| GitHub Copilot Resources | [GHCP Power BI](https://github.com/github-copilot-resources/copilot-metrics-viewer-power-bi) | Visualizes GitHub Copilot usage metrics in Power BI |
+
 ## 🛠️ Things I've built
 
 #### 🤖 GitHub Copilot adoption & enablement
 
 | Project | What it does | Built with |
 | --- | --- | --- |
-| [copilot-adoption-viewer-power-bi](https://github.com/jasonmoodie/copilot-adoption-viewer-power-bi) | Sample Power BI dashboard with user-level data to monitor GitHub Copilot adoption | Python · Power BI |
 | [ADO-Skills](https://github.com/jasonmoodie/ADO-Skills) | Azure DevOps CLI skill for GitHub Copilot | Agent Skills · Azure DevOps CLI |
 | [CopilotNetCalculator](https://github.com/jasonmoodie/CopilotNetCalculator) | Self-guided tutorial: learn GitHub Copilot by building a .NET calculator | C# · .NET |
 | [Copilot-HTML-Calculator](https://github.com/jasonmoodie/Copilot-HTML-Calculator) | Workshop: learn GitHub Copilot with an HTML calculator | JavaScript · HTML |
@@ -104,10 +111,10 @@ In my spare time I tinker with AI: experimenting across model providers and comp
 
 ## 📊 GitHub stats
 
-<!-- These two cards are generated daily by .github/workflows/readme-cards.yml. Run that workflow once by hand after your first commit. -->
+<!-- The daily workflow refreshes these local cards using public GitHub data. -->
 <p align="center">
   <img src="./profile/stats.svg" alt="Jason's GitHub stats" height="170" />
-  <img src="./profile/top-langs.svg" alt="Top languages" height="170" />
+  <img src="./profile/top-langs.svg" alt="Top primary languages by number of public, non-fork repositories" height="170" />
 </p>
 
 <details>

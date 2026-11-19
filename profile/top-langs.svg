@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="170" role="img">
+<title>Top languages by repository</title>
+<rect width="300" height="170" rx="8" fill="#161b22"/>
+<g font-family="system-ui, sans-serif" font-size="15" fill="#f0f6fc">
+<text x="20" y="30" fill="#79c0ff" font-size="19">Top languages by repository</text>
+<text x="20" y="59">PowerShell: 3 repos</text>
+<text x="20" y="82">Python: 2 repos</text>
+<text x="20" y="105">C#: 1 repo</text>
+<text x="20" y="128">JavaScript: 1 repo</text>
+<text x="20" y="151">Shell: 1 repo</text>
+</g>
+</svg>
